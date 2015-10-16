@@ -1,0 +1,23 @@
+*{
+	margin:0; padding:0;
+}
+body{
+	width:100%;
+	border-top:5px solid #d7a229;
+	background:url(images/body-bgr.png) top left;
+}
+	.carcas{
+		width:1000px; margin:0 auto; overflow:hidden;
+	}
+		.header-wrapper{
+			background:url(images/header-bgr.png) top left;
+		}
+			.header{
+				width:940px; margin:0 auto; overflow:hidden;
+			}
+			.header p{
+				float:right;
+			}
+				.header-logo{
+					float:left; margin:36px 0 40px 0;
+				}
