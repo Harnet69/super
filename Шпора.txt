@@ -17,7 +17,9 @@
 	background:rgba(0,0,0,0.6) - чёрный фон с прозрачностью
 	<a href="mailto:contact@monkeethemes.com">contact@monkeethemes.com</a>// так оформлять почтовую ссылку
 !!!	.class{clear:right; float:right};// если надо разместить друг под другом блоки напр. справа
-
+	clear:both;/отменяет все флоаты 
+	text-shadow:1px -1px 1px #000000; тень текста 1зч сверху, размытие1
+	outline:none;// убирает синюю рамку в форме и ссылках (напр. Хром)
 
 	
 
