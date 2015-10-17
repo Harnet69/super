@@ -6,6 +6,12 @@ body{
 	border-top:5px solid #d7a229;
 	background:url(images/body-bgr.png) top left;
 }
+a{
+	text-decoration:none;
+}
+img{
+	border:0; line-height:0;
+}
 	.carcas{
 		width:1000px; margin:0 auto; overflow:hidden;
 	}
@@ -13,11 +19,30 @@ body{
 			background:url(images/header-bgr.png) top left;
 		}
 			.header{
-				width:940px; margin:0 auto; overflow:hidden;
-			}
-			.header p{
-				float:right;
+				width:940px; margin:0 auto; overflow:hidden; font-family:Droid serif;
 			}
 				.header-logo{
 					float:left; margin:36px 0 40px 0;
 				}
+				.header-right{
+					float:right; overflow:hidden; position:relative;
+				}
+					.header-login{
+						background:#d7a229; padding:7px 10px; border-radius:0 0 3px 3px; text-align:right;position:absolute; right:0;
+						font-family:Droid serif; font-weight:bold; font-style:italic;
+					}
+						.header-login a{
+						color:#333333; font-size:12px;
+						}	
+				.header-cont{
+					font-weight:bold; color:#d4d4d4; padding-top:40px; font-size:13px; display:block;
+				}
+					.header-cont img{
+						margin-right:7px;
+					}
+				.header-social{
+					float:right;
+				}
+					.header-social img{
+						margin:7px 0 0 7px;
+					}
