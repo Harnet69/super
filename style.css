@@ -4,16 +4,23 @@
 body{
 	width:100%;
 	border-top:5px solid #d7a229;
-	background:url(images/body-bgr.png) top left;
+	background:#ebebeb url(images/body-bgr.png) top left;
+	color:#333; line-height:1.8;	
 }
 a{
 	text-decoration:none;
 }
+a:hover{
+	text-decoration:underline;
+}
 img{
 	border:0; line-height:0;
 }
+ul{
+	list-style:none;
+}
 	.carcas{
-		width:1000px; margin:0 auto; overflow:hidden;
+		width:1000px; margin:0 auto; overflow:hidden; background:#fff;
 	}
 		.header-wrapper{
 			background:url(images/header-bgr.png) top left;
@@ -22,27 +29,52 @@ img{
 				width:940px; margin:0 auto; overflow:hidden; font-family:Droid serif;
 			}
 				.header-logo{
-					float:left; margin:36px 0 40px 0;
+					float:left; margin:40px 0 40px 0;
 				}
 				.header-right{
 					float:right; overflow:hidden; position:relative;
 				}
 					.header-login{
-						background:#d7a229; padding:7px 10px; border-radius:0 0 3px 3px; text-align:right;position:absolute; right:0;
+						background:#d7a229; padding:5px 10px; border-radius:0 0 3px 3px; text-align:right;position:absolute; right:0;
 						font-family:Droid serif; font-weight:bold; font-style:italic;
 					}
 						.header-login a{
 						color:#333333; font-size:12px;
 						}	
 				.header-cont{
-					font-weight:bold; color:#d4d4d4; padding-top:40px; font-size:13px; display:block;
+					float:right;font-weight:bold; color:#d4d4d4; padding-top:40px; font-size:13px; 
 				}
+					.header-cont a{
+						font-weight:bold; color:#d4d4d4;
+					}
 					.header-cont img{
-						margin-right:7px;
+						vertical-align:baseline; margin-right:7px;
 					}
 				.header-social{
-					float:right;
+					clear:right;float:right;
 				}
 					.header-social img{
 						margin:7px 0 0 7px;
 					}
+
+				.header-menu{
+					 width:100%;float:left;overflow:hidden;background:url(images/header-menu-btn-bgr.png);
+				}
+					.header-menu ul{
+						float:left;}
+						.header-menu li{
+							float:left; font-size:12px;
+						}
+						.header-menu li a{
+							float:left;color:#ffffff; padding:15px 18px; margin-right:1px;border-right:1px solid #2c3031;border-top:1px solid #43484a;border-left:1px solid #43484a;
+							}
+					.header-menu-search{
+						float:right; overflow:hidden;margin: 15px 5px ;
+					}
+						.header-menu-search form input[type="text"]{
+						float:left; width:150px; height:20px; border:2px solid #b0b1b2; border-radius:8px; font-size:12px;
+						color:#b0b1b2; padding-left:5px;font-family:Droid serif;	
+						}
+						.header-menu-search form input[type="image"]{
+						float:right; margin-left:5px; vertical-align:middle;
+						}

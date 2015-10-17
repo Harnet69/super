@@ -9,12 +9,14 @@
 	float применённый для li выстраивает их в строку как display:inline
 	display:block - приводит ссылки в меню к блочному типу и тогда работают паддинги
 	если не "бьёт" высота блока (например иконки) - body{line-height:1.3;}//line-height:0 - высота строки
-	.articles-head img{vertical-align:middle;}// центрует изображение в span
+	.articles-head img{vertical-align:middle;}// центрует изображение
 	.articles:last-child{border:none;}//псевдокласс, указатель на последний элемент, убирает из него border;
 	.pager {margin:0 auto; display:table;//если div со ссылками в пагинаторе не центрируется - задать display:table
 	float:left //в пагинаторе ко всем ссылкам применять обязательно, он переводит из строчного в блочный формат	
 	text-transform:uppercase;// Если нужны ТОЛЬКО заглавные буквы, например в заголовке	
 	background:rgba(0,0,0,0.6) - чёрный фон с прозрачностью
+	<a href="mailto:contact@monkeethemes.com">contact@monkeethemes.com</a>// так оформлять почтовую ссылку
+!!!	.class{clear:right; float:right};// если надо разместить друг под другом блоки напр. справа
 
 
 	
