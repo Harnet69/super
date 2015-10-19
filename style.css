@@ -192,3 +192,12 @@ ul{
 			.category div h3 span{		
 				background:#ffffff;padding-right:10px;
 			}
+		.latest-work{
+			text-align:center; font-size:24px;font-family:droid_serif; background:url(images/underslider-br.png) repeat-x 0 20px; 
+		}
+			.latest-work-h1{
+				background:#fff;
+			}
+			.latest-work-all-portfolio a{
+				text-align:right;
+			}
