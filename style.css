@@ -1,3 +1,26 @@
+@font-face {
+    font-family: 'pt_sans';
+    src: url('fonts/pt-sans-webfont.eot');
+    src: url('fonts/pt-sans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pt-sans-webfont.woff2') format('woff2'),
+         url('fonts/pt-sans-webfont.woff') format('woff'),
+         url('fonts/pt-sans-webfont.ttf') format('truetype'),
+         url('fonts/pt-sans-webfont.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'droid_serif';
+    src: url('fonts/droidserif-webfont.eot');
+    src: url('fonts/droidserif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/droidserif-webfont.woff2') format('woff2'),
+         url('fonts/droidserif-webfont.woff') format('woff'),
+         url('fonts/droidserif-webfont.ttf') format('truetype'),
+         url('fonts/droidserif-webfont.svg#droid_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
 	margin:0; padding:0;
 }
@@ -36,7 +59,7 @@ ul{
 				}
 					.header-login{
 						background:#d7a229; padding:5px 10px; border-radius:0 0 3px 3px; text-align:right;position:absolute; right:0;
-						font-family:Droid serif; font-weight:bold; font-style:italic;
+						font-family:droid_serif; font-weight:bold; font-style:italic;
 					}
 						.header-login a{
 						color:#333333; font-size:12px;
@@ -57,7 +80,7 @@ ul{
 						margin:7px 0 0 7px;
 					}
 
-				.header-menu{font-family:Droid serif normal; text-shadow:1px -1px 1px #000000; 
+				.header-menu{font-family:droid_serif; text-shadow:1px -1px 1px #000000; 
 					clear:both; width:100%;float:left;overflow:hidden;
 					clear:both; width:100%;float:left;overflow:hidden;
 					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#696c6d+0,373b3d+100 */
@@ -128,16 +151,44 @@ ul{
 		
 		.slide-content {
 			width:500px!important;top:60px!important; margin-left:85px; position:absolute; overflow:hidden; line-height:1.4;
+			}
+			.slide-content h2{
+				font-size:34px; font-family:droid_serif; font-style:regular; padding-bottom:20px;
+			}
+			.slide-content h3{
+				font-size:22px; color:#d7a229; font-family:pt_sans; font-style:regular; padding-bottom:20px;
+			}
+			.slide-content p{
+				font-size:12px; color:#464646; font-family:pt_sans; font-style:regular; padding-bottom:30px;line-height:1.8;
+			}
+				.slide-content img{
+					width:173px!important;
+				}
+		.underslider{
+			padding:50px 30px; overflow:hidden;background:url(images/underslider-br.png);
+		}	
+			.underslider h2{
+				font-size:24px; font-family:droid_serif;color:#333333; margin-bottom:20px;
+			}			
+			.underslider p{
+				font-size:13px; color:#252525; font-family:pt_sans;
+			}
+		.content{
+			border-bottom:5px solid #d7a229; background: url(images/underslider-br.png) repeat-x left bottom;padding-bottom:10px;font-family:pt_sans;font-size:13px;overflow:hidden;
 		}
-		.slide-content h2{
-			font-size:34px; font-family:Droid Serif; font-style:regular; padding-bottom:20px;
-		}
-		.slide-content h3{
-			font-size:22px; color:#d7a229; font-family:PT Sans; font-style:regular; padding-bottom:20px;
-		}
-		.slide-content p{
-			font-size:12px; color:#464646; font-family:PT Sans; font-style:regular; padding-bottom:30px;line-height:1.8;
-		}
-		.slide-content p img{
-			width:173px!important;
-		}
+			.category{
+				overflow:hidden; margin-top:60px; padding:50px 30px;
+			}
+				.category div{
+					float:left;margin-right:20px; width:220px;
+				}
+				.category div:last-child{
+					float:right;margin-right:0;
+				}
+			.category div h3{
+				margin-right:20px;font-size:16px; font-family:droid_serif; margin-bottom:25px; 
+				background:url(images/underslider-br.png) repeat-x 0 12px; 
+			}	
+			.category div h3 span{		
+				background:#ffffff;padding-right:10px;
+			}

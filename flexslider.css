@@ -151,13 +151,13 @@ font-size: 15px;
   right: -50px;
   text-align: right;
   background:url(images/slide-arrow-right.png) no-repeat;	
-  margin-right:30px;		
+  margin-right:20px;		
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
   left: 10px;
   background:url(images/slide-arrow-left.png) no-repeat;	
-  margin-left:30px;	
+  margin-left:20px;	
 }
 .flexslider:hover .flex-direction-nav .flex-prev:hover {
   opacity: 1;
@@ -239,7 +239,7 @@ font-size: 15px;
   margin: 0;
 }
 .flex-control-thumbs img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
   opacity: .7;
@@ -270,10 +270,3 @@ font-size: 15px;
     right: 10px;
   }
 }
-
-.slide-content {
-			width:550px; top:200px;
-}
-	.slide-content img{
-			width:173px!important;
-	}
