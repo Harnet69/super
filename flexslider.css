@@ -130,7 +130,7 @@ html[xmlns] .flexslider .slides {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-font-size: 0px;
+font-size: 15px;
 }
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";
@@ -270,3 +270,10 @@ font-size: 0px;
     right: 10px;
   }
 }
+
+.slide-content {
+			width:550px; top:200px;
+}
+	.slide-content img{
+			width:173px!important;
+	}
