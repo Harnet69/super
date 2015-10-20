@@ -180,24 +180,36 @@ ul{
 				overflow:hidden; margin-top:60px; padding:50px 30px;
 			}
 				.category div{
-					float:left;margin-right:20px; width:220px;
+					float:left;margin-left:20px; width:220px;
 				}
-				.category div:last-child{
-					float:right;margin-right:0;
+				.category div:first-child{
+					float:right;margin-left:0;
 				}
-			.category div h3{
-				margin-right:20px;font-size:16px; font-family:droid_serif; margin-bottom:25px; 
-				background:url(images/underslider-br.png) repeat-x 0 12px; 
-			}	
-			.category div h3 span{		
-				background:#ffffff;padding-right:10px;
+					.category div h3{
+						margin-right:20px;font-size:16px; font-family:droid_serif; margin-bottom:25px; 
+						background:url(images/underslider-br.png) repeat-x 0 12px; 
+					}	
+					.category div h3 span{		
+						background:#ffffff;padding-right:10px;
+					}
+			.latest-work{
+			text-align:center; font-size:24px;font-family:droid_serif; background:url(images/underslider-br.png) repeat-x 0 20px; position:relative;width:940px; margin-left:30px;
 			}
-		.latest-work{
-			text-align:center; font-size:24px;font-family:droid_serif; background:url(images/underslider-br.png) repeat-x 0 20px; 
-		}
-			.latest-work-h1{
-				background:#fff;
+				.latest-work-h1{
+					background:#fff; padding:0 20px; font-size:24px; color:#333;
+				}
+				.latest-work-all-portfolio a{
+					text-align:right; position:absolute; right:0px;background:#fff; color:#d7a229; font-size:13px; font-family:pt_sans; font-style:italic; top:13px; padding-left:10px;
+				}
+			.latest-works{
+				overflow:hidden; margin-top:50px; padding:0px 30px; display:block;
 			}
-			.latest-work-all-portfolio a{
-				text-align:right;
-			}
+				.my-latest-work:first-child{
+				width:212px; float:left; margin-left:0px;
+				}				
+				.my-latest-work{
+					width:212px; float:left; margin-left:30px; 
+				}
+				.my-latest-work:last-child{
+					width:210px; float:right; margin-right:0px; 
+				}
