@@ -202,13 +202,19 @@ ul{
 					text-align:right; position:absolute; right:0px;background:#fff; color:#d7a229; font-size:13px; font-family:pt_sans; font-style:italic; top:13px; padding-left:10px;
 				}
 			.latest-works{
-				overflow:hidden; margin-top:50px; padding:0px 30px; display:block;
+				overflow:hidden; margin-top:50px; padding:0px 30px; display:block; margin-bottom:50px;
 			}
 				.my-latest-work:first-child{
-				width:212px; float:left; margin-left:0px;
+				width:210px; float:left; margin-left:0px;
 				}				
 				.my-latest-work{
-					width:212px; float:left; margin-left:30px; 
+					width:210px;float:left; margin-left:30px; background:url(images/underslider-br.png);
+				}
+				.my-latest-work img{
+					width:205px;
+				}	
+				.my-latest-work-shot img{
+					width:16px;
 				}
 				.my-latest-work:last-child{
 					width:210px; float:right; margin-right:0px; 
